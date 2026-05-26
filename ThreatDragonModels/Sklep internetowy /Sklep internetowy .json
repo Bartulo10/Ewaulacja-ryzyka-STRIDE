@@ -197,7 +197,7 @@
           {
             "position": {
               "x": 810,
-              "y": 110
+              "y": 100
             },
             "size": {
               "width": 140,
@@ -205,7 +205,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Aplikacja frontend\n"
+                "text": "Przeglądarka"
               },
               "body": {
                 "stroke": "red",
@@ -301,7 +301,7 @@
             "id": "7583843d-c94d-4268-9613-81a3d7e65f27",
             "data": {
               "type": "tm.Process",
-              "name": "Aplikacja frontend\n",
+              "name": "Przeglądarka",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -569,12 +569,18 @@
             "id": "e110f209-76f5-41be-9a8b-f14fce12c8fd",
             "source": {
               "x": 503,
-              "y": 370
+              "y": 380
             },
             "target": {
               "cell": "7583843d-c94d-4268-9613-81a3d7e65f27",
               "port": "86579702-fed0-4a8a-8efb-65eb0f2d7be3"
-            }
+            },
+            "vertices": [
+              {
+                "x": 770,
+                "y": 180
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -671,6 +677,10 @@
               {
                 "x": 740,
                 "y": 300
+              },
+              {
+                "x": 740,
+                "y": 360
               }
             ]
           },
@@ -713,7 +723,7 @@
             "id": "f6fd7f5f-0a18-40d4-860d-14341e374a1b",
             "source": {
               "x": 450,
-              "y": 340
+              "y": 350
             },
             "target": {
               "cell": "7583843d-c94d-4268-9613-81a3d7e65f27",
@@ -722,7 +732,7 @@
             "vertices": [
               {
                 "x": 790,
-                "y": 150
+                "y": 160
               }
             ]
           },
@@ -880,6 +890,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -963,7 +974,6 @@
               ]
             },
             "id": "9dedc2e8-445c-4eb6-b738-4af8c4ba7084",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Data storage",
@@ -1041,8 +1051,8 @@
           },
           {
             "position": {
-              "x": 101,
-              "y": 230
+              "x": 201,
+              "y": 250
             },
             "size": {
               "width": 60,
@@ -1050,7 +1060,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Przeglądarka"
+                "text": "Zabezpieczenie Przeglądarki"
               },
               "body": {
                 "stroke": "#333333",
@@ -1060,6 +1070,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1143,10 +1154,9 @@
               ]
             },
             "id": "b95372f3-d703-473e-8a6f-730c08297dfa",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
-              "name": "Przeglądarka",
+              "name": "Zabezpieczenie Przeglądarki",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
